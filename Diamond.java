@@ -1,3 +1,5 @@
+//Made by Kai Denton
+
 import java.util.Scanner;
 
 public class Diamond {
