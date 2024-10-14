@@ -49,6 +49,22 @@ public class Diamond {
         System.out.println(" ");
       }
       
+      if(userInput == 2) {
+        System.out.print("  *");
+        System.out.println(" ");
+      } else {
+        for(int bottom = 2; bottom > 0; bottom--){
+          for(int space = 0; space < userInput - bottom + 1; space++) {
+            System.out.print(" ");
+          }
+  
+          for(int asterisk = 0; asterisk < bottom; asterisk++) {
+            System.out.print("* ");
+          }
+  
+          System.out.println(" ");
+        }
+      }
     } else {
       //This runs if the user input is an odd number
       //Top Half of Diamond
